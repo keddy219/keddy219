@@ -2,11 +2,15 @@
 
 This page shows what Kritis Print produces, using real lots and the tool's actual output. The source code and datasets remain private; the figures below are copied from the tool's output files.
 
+![How Kritis Print prices one lot: classify, identify the plate, set the ladder](how-it-works.svg)
+
+*The animation follows one real lot through the three steps. Artwork image via WikiArt (fair use), © Zao Wou-Ki; sales data from public auction results.*
+
 ## 1. One lot, end to end
 
-**Input.** Zao Wou-Ki, *Montagnes et soleil* (1951), lithograph, signed, numbered 192/200, catalogue raisonné Ågerup 59. Dobiaschofsky, Bern, closing 6 November 2026. Estimate CHF 2,000–3,000.
+**Input.** Zao Wou-Ki, *Montagnes et soleil* (1951), lithograph, signed, numbered 192/200, catalogue raisonné Ågerup 59. Dobiaschofsky, Bern, sale of 6 November 2026. Estimate CHF 2,000–3,000 (about US$2,500–3,750).
 
-**Output** (registered 1 November 2026, before the sale; key fields, USD):
+**Output** (registered 1 November 2026, five days before the sale; key fields, USD):
 
 ```json
 {
@@ -30,7 +34,7 @@ This page shows what Kritis Print produces, using real lots and the tool's actua
 **How to read it.**
 
 1. **What the object is.** The tool first decides whether the lot is a signed limited original print. Only signed editions and proofs receive a price range. Reproductions, book and magazine pages, and unsigned editions are excluded, because their sales do not belong to the same market.
-2. **Which plate it is.** The catalogue number identifies the plate. The same plate sold six times in the past three years, with a median of US$3,331. The most recent sale, adjusted for the difference between auction houses, implies about US$3,073.
+2. **Which plate it is.** The catalogue number identifies the plate. It has 19 recorded auction sales since 2014. Prices have come down: six sales in the three years before registration had a median of US$3,331, against US$3,300–10,300 between 2014 and 2022. The most recent sale, adjusted for the difference between auction houses, implies about US$3,073.
 3. **The price ladder.** The floor is US$2,500, the level below which this kind of sale rarely falls; it is calibrated so that about nine in ten comparable sales land at or above it. The ceiling is US$4,754.
 4. **A verdict for any asking price.** For a dealer's or platform's asking price, the tool says where it sits. Below US$2,125 is cheap. Below US$1,250 the object should be checked before anything else, because a genuine impression rarely sells that low.
 
@@ -38,7 +42,7 @@ Every output also carries a manifest: the protocol version, the parameters and a
 
 ## 2. A live blind test, published before the results
 
-Twelve Zao Wou-Ki prints were offered at eight auction houses between 4 and 21 November 2026. The tool's ranges for all twelve were fixed and committed to version control on 31 October and 1 November, before any of them closed.
+Twelve Zao Wou-Ki prints were offered at eight auction houses between 4 and 21 November 2026. The tool's ranges for all twelve were fixed and committed to version control on 31 October and 1 November, before any of them closed. Results are added to the table as each sale is reported; nothing above the result column is changed afterwards.
 
 ![Registered price ladders for twelve live lots](live-test-2026-11.svg)
 
