@@ -1,6 +1,6 @@
 # Kritis Print
 
-Kritis Print is a Python research tool for analysing the market for editioned prints. It combines object classification with price-reference ranges and same-plate sales comparisons.
+Kritis Print is a Python research tool for analysing the market for editioned prints. It first decides which print sales are worth comparing, then combines auction-estimate calibration with same-plate sales data to give a traceable market price reference.
 
 ## The problem
 
