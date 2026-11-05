@@ -8,7 +8,7 @@ Auction records can mix signed limited editions, proofs, reproductions, and page
 
 Kritis Print classifies the object before issuing a price range. For eligible prints, it calculates a reference range and can assess a supplied price against that range. It also adds same-plate sales information when available.
 
-## Method and output
+## What it gives
 
 For each print it gives a price range, the sales history of the same plate, and a plain verdict on any asking price. When the information is not enough, it says so and gives the reason instead of a number.
 
