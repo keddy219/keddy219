@@ -20,3 +20,5 @@ The tool is implemented and remains under evaluation. The initial pricing method
 
 The source code and underlying datasets are currently private.
 
+**See it in action:** [example output](../examples/kritis-print/README.md). It walks through one real lot from input to price ladder, shows a live blind test of twelve lots registered before their sales, and compares historical results with the auction houses' own estimates.
+

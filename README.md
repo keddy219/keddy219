@@ -8,7 +8,7 @@ I define the research questions, domain rules, and acceptance criteria. I use AI
 
 | Project | Focus | Stage |
 | --- | --- | --- |
-| [Kritis Print](projects/kritis-print.md) | Print classification, calibrated price ranges, and same-plate sales comparisons. | Research tool; ongoing evaluation |
+| [Kritis Print](projects/kritis-print.md) | Print classification, calibrated price ranges, and same-plate sales comparisons. [Example output →](examples/kritis-print/README.md) | Research tool; live blind test in progress |
 | [Kritis](projects/kritis.md) | Comparable-sales analysis and market-positioning reports for unique artworks. | Research tool |
 | [Peitho](projects/peitho.md) | Helping clients clarify their taste and narrow down the aesthetic directions they are drawn to. | Research and design |
 
