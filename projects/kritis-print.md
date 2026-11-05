@@ -10,7 +10,7 @@ Kritis Print classifies the object before issuing a price range. For eligible pr
 
 ## Method and output
 
-The range uses an auction estimate or a comparable-sales anchor, calibrated against recent sale-to-anchor ratios grouped by price band. Same-plate comparisons are presented separately. Outputs include the object class, the price range, the basis for the calculation, and reasons for withholding a result when information is insufficient.
+For each print it gives a price range, the sales history of the same plate, and a plain verdict on any asking price. When the information is not enough, it says so and gives the reason instead of a number.
 
 The project also includes data-collection workflows and liquidity reports.
 
